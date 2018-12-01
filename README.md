@@ -1,5 +1,10 @@
 # Parallel-Travelling-Salesman-Problem
 The goal is to get the most parallelism in solving the TSP.
+<br> Input and Testing
+<br> For input, use the data sets at
+<br> http : //elib.zib.de/pub/mp − testdata/tsp/tsplib/tsp/index.html
+
+######
 <br> 求解TSP的传统求解算法主要有:分支定界法,改良回路法(逐次修正法)、贪婪算法(最邻近法)、最小生成树法、局部搜索法、多边交换调整法等;现代优化算法主要有:模拟退火算法、遗传算法、蚁群算法、粒子群优化算法、禁忌搜索算法、Hopfield神经网络算法等。
 ######
 ### 思考参照
