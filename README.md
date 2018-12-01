@@ -1,5 +1,6 @@
 # Parallel-Travelling-Salesman-Problem
 The goal is to get the most parallelism in solving the TSP.
+<br> 求解TSP的传统求解算法主要有:分支定界法,改良回路法(逐次修正法)、贪婪算法(最邻近法)、最小生成树法、局部搜索法、多边交换调整法等;现代优化算法主要有:模拟退火算法、遗传算法、蚁群算法、粒子群优化算法、禁忌搜索算法、Hopfield神经网络算法等。
 ######
 ### 思考参照
 1. 爬山算法( Hill Climbing )：兔子朝着比现在高的地方跳去。它找到了不远处的最高山峰。但是这座山不一定是珠穆朗玛峰。这就是爬山算法，它不能保证局部最优值就是全局最优值。
