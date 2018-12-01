@@ -16,7 +16,8 @@ The goal is to get the most parallelism in solving the TSP.
 
 　<br>　旅行商问题属于所谓的NP完全问题，精确的解决TSP只能通过穷举所有的路径组合，其时间复杂度是O(N!) 。
 
-　<br>　使用模拟退火算法可以比较快的求出TSP的一条近似最优路径。（使用遗传算法也是可以的，我将在下一篇文章中介绍）模拟退火解决TSP的思路：
+　<br>　使用模拟退火算法可以比较快的求出TSP的一条近似最优路径。
+ ### 模拟退火解决TSP的思路
 
 1. 产生一条新的遍历路径P(i+1)，计算路径P(i+1)的长度L( P(i+1) )
 
@@ -32,4 +33,5 @@ The goal is to get the most parallelism in solving the TSP.
 
 3. 随机选择3个节点m，n，k，然后将节点m与n间的节点移位到节点k后面
 <br> 模拟退火算法是一种随机算法，并不一定能找到全局的最优解，可以比较快的找到问题的近似最优解。 如果参数设置得当，模拟退火算法搜索效率比穷举法要高。
+#####
 <br> 　from here ： http://www.cnblogs.com/heaad/   转载请注明
