@@ -1,6 +1,6 @@
 # Parallel-Travelling-Salesman-Problem
 The goal is to get the most parallelism in solving the TSP.
-<br> Input and Testing
+### Input and Testing
 <br> For input, use the data sets at
 <br> http : //elib.zib.de/pub/mp − testdata/tsp/tsplib/tsp/index.html
 
