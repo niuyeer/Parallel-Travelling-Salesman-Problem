@@ -39,5 +39,13 @@ The goal is to get the most parallelism in solving the TSP.
 
 3. 随机选择3个节点m，n，k，然后将节点m与n间的节点移位到节点k后面
 <br> 模拟退火算法是一种随机算法，并不一定能找到全局的最优解，可以比较快的找到问题的近似最优解。 如果参数设置得当，模拟退火算法搜索效率比穷举法要高。
+### branch and bound
+分支限界法首先要确定一个合理的限界函数（bound funciton），并根据限界函数确定目标函数的界[down ,up]，按照广度优先策略搜索问题的解空间树，在分直结点上依次扩展该结点的孩子结点，分别估算孩子结点的目标函数可能值，如果某孩子结点的目标函数可能超出目标函数的界，则将其丢弃；否则将其加入待处理结点表（简称PT表），依次从表PT中选取使目标函数取得极值的结点成为当前扩展结点，重复上述过程，直到得到最优解。
+
+
+
+
 #####
 <br> 　from here ： http://www.cnblogs.com/heaad/   转载请注明
+
+<br> 原文：https://blog.csdn.net/lovesummerforever/article/details/18622127 
